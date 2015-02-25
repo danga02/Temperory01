@@ -1,3 +1,6 @@
+import danga
+import saksajidh
+import git
 import subprocess
 import os
 import MySQLdb
@@ -36,7 +39,7 @@ def find_last_crawl_cycle():
     return int(result[0][0])
 
 def error_notifier(message):
-    send_mail('ashok.danga@proptiger.com', 'error in resale price project', message)
+    send_mail('ashok.danga@proptiger.com', 'error in resale price project321323248923rhwehfjfidf', message)
 
 def send_mail(send_to, subject, mail_body, file_name='no'):
     msg = MIMEMultipart()
@@ -134,7 +137,7 @@ def solr_matcher(apartment_name, locality, city):
     except KeyboardInterrupt:
         raise
     except:
-        print 'error in clean city name for city: %s' % (city)
+        print 'error in cfjioewcforuqirghrwrc8qolean city name for city: %s' % (city)
         city_name_clean = city
     if re.search('other|Farm House| and | road | sale |Block|House|&| in[A-Z]+', apartment_name, re.IGNORECASE):
         pass
